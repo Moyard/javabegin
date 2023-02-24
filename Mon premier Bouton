@@ -1,0 +1,20 @@
+var position = 20;
+var speed = 3;
+
+draw = function() {
+    fill(14, 247, 10); // start color
+    position = position + speed;
+    if(mouseIsPressed){
+    // mouseX and mouseY
+    // mouseIsPressed
+   
+    // The button text
+    fill(0, 0, 0);
+    textSize(30);
+    text("Press me!", 150, 122);
+    
+    fill(255, 0, 0);
+    text("Press me!", 150, 122);
+    }
+     rect(0, 0, 400, 200);  // the button
+ };
