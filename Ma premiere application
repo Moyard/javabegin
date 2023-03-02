@@ -1,0 +1,12 @@
+
+    draw = function() {
+    background(202, 255, 97);
+    fill(255, 0, 0);  
+    // mouseX and mouseY
+    // mouseIsPressed
+    if(mouseX >20){
+        if(mouseIsPressed){
+     ellipse(mouseX, mouseY, 20, 20);
+    }
+   }
+};
